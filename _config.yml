@@ -1,7 +1,7 @@
 # Site settings
 title: "Kinesthetic Learning Activities Archive"
 description: "Static archive of the Kinesthetic Learning Activities wiki - hands-on CS education resources"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/kla" # the subpath of your site, e.g. /blog
 url: "https://steven-wolfman.github.io" # the base hostname & protocol for your site
 
 # Build settings

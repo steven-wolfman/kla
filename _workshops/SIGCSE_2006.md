@@ -10,7 +10,7 @@ We had a fun workshop this year with 13 participants. Thanks to all for coming!
 
 Here are the two completed KLAs that were developed at this year's workshop:
 
-- [Set-associative caching](/activities/Set-associative_caching/)
-- [Event handlers in Java](/activities/Event_handlers_in_Java/)
+- [Set-associative caching]({{ "/activities/set-associative-caching/" | relative_url }})
+- [Event handlers in Java]({{ "/activities/event-handlers-in-java/" | relative_url }})
 
-[Notes](/resources/Notes/) for preparation for this year's SIGCSE.
+[Notes]({{ "/resources/notes/" | relative_url }}) for preparation for this year's SIGCSE.

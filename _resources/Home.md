@@ -20,26 +20,26 @@ This website is a resource of KLAs for the Computer Science Education community.
 
 ## KLA Collection
 
-Pre-built [KLAs](/activities/KLAs/) donated by others.
+Pre-built [KLAs]({{ "/activities/KLAs/" | relative_url }}) donated by others.
 
 ## Resources For Building KLAs
 
-[Design pattern](/resources/Design_pattern/) for KLAs.
-A selection of [Props](/activities/Props/) for use in KLAs
-[KLA Building Blocks](/activities/KLA_Building_Blocks/): common idioms or exercise fragments usable across many KLAs
-[KLA Heuristics](/resources/KLA_Heuristics/): rules of thumb to help you analyze, evaluate, and improve KLAs 
+[Design pattern]({{ "/resources/design-pattern/" | relative_url }}) for KLAs.
+A selection of [Props]({{ "/activities/Props/" | relative_url }}) for use in KLAs
+[KLA Building Blocks]({{ "/activities/KLA_Building_Blocks/" | relative_url }}): common idioms or exercise fragments usable across many KLAs
+[KLA Heuristics]({{ "/resources/kla-heuristics/" | relative_url }}): rules of thumb to help you analyze, evaluate, and improve KLAs 
 
 ## Related Links
 
-[Background and Philosophy](/resources/Background_and_Philosophy/)
-[Papers](/activities/Papers/)
-[Links](/activities/Links/)
+[Background and Philosophy]({{ "/resources/background-and-philosophy/" | relative_url }})
+[Papers]({{ "/activities/Papers/" | relative_url }})
+[Links]({{ "/activities/Links/" | relative_url }})
 
 ## KLA Workshops
 
-[SIGCSE 2004](/workshops/SIGCSE_2004/)
-[SIGCSE 2005](/workshops/SIGCSE_2005/)
-[SIGCSE 2006](/workshops/SIGCSE_2006/)
-[CS IT Feb 2005](/activities/CS_IT_Feb_2005/)
-[CS IT Jun 2005](/activities/CS_IT_Jun_2005/)
-[CS IT Jul 2006](/activities/CS_IT_Jul_2006/)
+[SIGCSE 2004]({{ "/workshops/sigcse-2004/" | relative_url }})
+[SIGCSE 2005]({{ "/workshops/sigcse-2005/" | relative_url }})
+[SIGCSE 2006]({{ "/workshops/sigcse-2006/" | relative_url }})
+[CS IT Feb 2005]({{ "/activities/CS_IT_Feb_2005/" | relative_url }})
+[CS IT Jun 2005]({{ "/activities/CS_IT_Jun_2005/" | relative_url }})
+[CS IT Jul 2006]({{ "/activities/CS_IT_Jul_2006/" | relative_url }})

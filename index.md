@@ -16,19 +16,19 @@ This website is a resource of KLAs for the Computer Science Education community,
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0;">
 
 <div style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
-<h3><a href="/activities/">🎯 Activities</a></h3>
+<h3><a href="{{ "/activities/" | relative_url }}">🎯 Activities</a></h3>
 <p>Individual kinesthetic learning activities for computer science concepts. Hands-on exercises for algorithms, data structures, and programming concepts.</p>
 <p><strong>{{ site.activities.size }} activities available</strong></p>
 </div>
 
 <div style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
-<h3><a href="/workshops/">🎪 Workshops</a></h3>
+<h3><a href="{{ "/workshops/" | relative_url }}">🎪 Workshops</a></h3>
 <p>Conference workshop materials and collections from SIGCSE and other educational venues.</p>
 <p><strong>{{ site.workshops.size }} workshop collections</strong></p>
 </div>
 
 <div style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
-<h3><a href="/resources/">📚 Resources</a></h3>
+<h3><a href="{{ "/resources/" | relative_url }}">📚 Resources</a></h3>
 <p>Templates, design patterns, research papers, and supporting materials for creating and implementing KLAs.</p>
 <p><strong>{{ site.resources.size }} resources available</strong></p>
 </div>

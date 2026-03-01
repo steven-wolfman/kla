@@ -7,7 +7,7 @@ From: Guest ()
 Date: April 18, 2006, 9:49 am
 
 Qwiki Syntax Rules:
-[QwikiWiki](/resources/QwikiWiki/) uses its own syntactical rule set.  It may seem rather terse and complex when you read it here, but it really is quite simple and natural as you do it.  For example, the text that created all this is shown at the end of this page.
+[QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}) uses its own syntactical rule set.  It may seem rather terse and complex when you read it here, but it really is quite simple and natural as you do it.  For example, the text that created all this is shown at the end of this page.
 
 ## Creating Headings
 Any line containing at least two words, all of which are capitalized, becomes a heading.
@@ -23,11 +23,11 @@ Any line starting with a "bullet identifier" becomes a line in a list.  Bullet i
 1. Number: Creates a numbered line.  Any numbered line starting with one resets the list counter.  Lines starting with numbers other than one are renumbered as necessary. Likewise, the list counter is reset with every heading.
 
 ## Automatic Linking
-Text in a [QwikiWiki](/resources/QwikiWiki/) page is scanned for several patterns, which automatically produce links of the following types:
+Text in a [QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}) page is scanned for several patterns, which automatically produce links of the following types:
 - Email addresses and DNS names become hyperlinks, as do URLs of the form xxx:/*xxx@xxx.xxx?xxx
-- Any word with "CamelBack" capitalization (meaning "UPPERCASE lowercase UPPERCASE lowercase" etc) becomes a link to a page with its corresponding name, such as [QwikiWiki](/resources/QwikiWiki/).
+- Any word with "CamelBack" capitalization (meaning "UPPERCASE lowercase UPPERCASE lowercase" etc) becomes a link to a page with its corresponding name, such as [QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}).
   - Note: You can disable this on a per-instance basis by prefacing the word with an exclamation point (!), or by adding the word to the `'ignoreQwikiTagArray'` variable in `_config.php`.
-- Any group of words surrounded and separated by underscores (_) becomes a link to a page with its corresponding name, such as [Home](/activities/Home/).
+- Any group of words surrounded and separated by underscores (_) becomes a link to a page with its corresponding name, such as [Home]({{ "/activities/Home/" | relative_url }}).
 
 ## Formatting Notes
 - Words surrounded by asteriks (**) become **bold**.
@@ -35,20 +35,20 @@ Text in a [QwikiWiki](/resources/QwikiWiki/) page is scanned for several pattern
 - Words surrounded by pound-signs (`) are shown as `code`.
 
 ## HTML Notes
-- [QwikiSyntax](/resources/QwikiSyntax/) and HTML can be freely intermixed, though care must be taken to avoid conflicting with the other automated markup rules.
+- [QwikiSyntax]({{ "/resources/qwikisyntax/" | relative_url }}) and HTML can be freely intermixed, though care must be taken to avoid conflicting with the other automated markup rules.
   - Note: To insert HTML code that should be visible to the user, be sure to replace the '&lt;' and '&gt;' with '&amp;lt;' and '&amp;gt;', respectively,
-- Text surrounded by &lt;HTML&gt; and &lt;*HTML&gt; tags will be ignored by [QwikiWiki](/resources/QwikiWiki/) and passed to the browser without alteration.
-  - Note: For security reasons, only a subset of HTML tags are allowed in [QwikiWiki](/resources/QwikiWiki/) pages.  The specific set allowed is up to the administrator; click **Help** when editing a page to see the complete list of acceptable HTML tags.
+- Text surrounded by &lt;HTML&gt; and &lt;*HTML&gt; tags will be ignored by [QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}) and passed to the browser without alteration.
+  - Note: For security reasons, only a subset of HTML tags are allowed in [QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}) pages.  The specific set allowed is up to the administrator; click **Help** when editing a page to see the complete list of acceptable HTML tags.
 
 ## Attached Files And Images
-If enabled by the [QwikiWiki](/resources/QwikiWiki/) administrator, you can upload and "attach" files to each page.  Attached files are stored in a page-specific subdirectory, and can be linked to from within the page by simply typing its filename into the page text.  If the attached file is an image type (GIF, JPG, PNG), it is inserted directly rather than linked to.
-  - Note: Only certain file types can be attached, as specified by [QwikiWiki](/resources/QwikiWiki/) administrator.  Click **Help** when editing a page to see the complete list of acceptable file types.
+If enabled by the [QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}) administrator, you can upload and "attach" files to each page.  Attached files are stored in a page-specific subdirectory, and can be linked to from within the page by simply typing its filename into the page text.  If the attached file is an image type (GIF, JPG, PNG), it is inserted directly rather than linked to.
+  - Note: Only certain file types can be attached, as specified by [QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}) administrator.  Click **Help** when editing a page to see the complete list of acceptable file types.
 
 For Example: This Page's Source
-As a concrete example of how to use [QwikiSyntax](/resources/QwikiSyntax/) to write a rich [QwikiWiki](/resources/QwikiWiki/) page, the text that actually generates this page is shown below.  
+As a concrete example of how to use [QwikiSyntax]({{ "/resources/qwikisyntax/" | relative_url }}) to write a rich [QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}) page, the text that actually generates this page is shown below.  
 <HTML><TABLE CLASS='QWHelpBox' ALIGN='center'><TR><TD><PRE>
 Qwiki Syntax Rules:
-[QwikiWiki](/resources/QwikiWiki/) uses its own syntactical rule set.  It may seem rather terse and 
+[QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}) uses its own syntactical rule set.  It may seem rather terse and 
 complex when you read it here, but it really is quite simple and natural as 
 you do it.  For example, the text that created all this is shown at the end of 
 this page.
@@ -74,18 +74,18 @@ renumbered as necessary. Likewise, the list counter is reset with every
 heading.
 
 ## Automatic Linking
-Text in a [QwikiWiki](/resources/QwikiWiki/) page is scanned for several patterns, which automatically 
+Text in a [QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}) page is scanned for several patterns, which automatically 
 produce links of the following types:
 - Email addresses and DNS names become hyperlinks, as do URLs of the form 
 xxx:**xxx@xxx.xxx?xxx
 - Any word with "CamelBack" capitalization (meaning "UPPERCASE lowercase 
 UPPERCASE lowercase" etc) becomes a link to a page with its corresponding 
-name, such as [QwikiWiki](/resources/QwikiWiki/).
+name, such as [QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}).
   - Note: You can disable this on a per-instance basis by prefacing the word 
 with an exclamation point (!), or by adding the word to the 
 `'ignoreQwikiTagArray'` variable in `_config.php`.
 - Any group of words surrounded and separated by underscores (_) becomes a 
-link to a page with its corresponding name, such as [Home](/activities/Home/).
+link to a page with its corresponding name, such as [Home]({{ "/activities/Home/" | relative_url }}).
 
 ## Formatting Notes
 - Words surrounded by asteriks (**) become **bold**.
@@ -93,24 +93,24 @@ link to a page with its corresponding name, such as [Home](/activities/Home/).
 - Words surrounded by pound-signs (`) are shown as `code`.
 
 ## HTML Notes
-- [QwikiSyntax](/resources/QwikiSyntax/) and HTML can be freely intermixed, though care must be taken to 
+- [QwikiSyntax]({{ "/resources/qwikisyntax/" | relative_url }}) and HTML can be freely intermixed, though care must be taken to 
 avoid conflicting with the other automated markup rules.
   - Note: To insert HTML code that should be visible to the user, be sure to 
 replace the '&lt;' and '&gt;' with '&amp;lt;' and '&amp;gt;', respectively,
 - Text surrounded by &lt;HTML&gt; and &lt;*HTML&gt; tags will be ignored by 
-[QwikiWiki](/resources/QwikiWiki/) and passed to the browser without alteration.
+[QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}) and passed to the browser without alteration.
   - Note: For security reasons, only a subset of HTML tags are allowed in 
-[QwikiWiki](/resources/QwikiWiki/) pages.  The specific set allowed is up to the administrator; click 
+[QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}) pages.  The specific set allowed is up to the administrator; click 
 **Help** when editing a page to see the complete list of acceptable HTML tags.
 
 ## Attached Files And Images
-If enabled by the [QwikiWiki](/resources/QwikiWiki/) administrator, you can upload and "attach" files 
+If enabled by the [QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}) administrator, you can upload and "attach" files 
 to each page.  Attached files are stored in a page-specific subdirectory, and 
 can be linked to from within the page by simply typing its filename into the 
 page text.  If the attached file is an image type (GIF, JPG, PNG), it is 
 inserted directly rather than linked to.
-  - Note: Only certain file types can be attached, as specified by [QwikiWiki](/resources/QwikiWiki/) 
+  - Note: Only certain file types can be attached, as specified by [QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}) 
 administrator.  Click **Help** when editing a page to see the complete list of 
 acceptable file types.
 <*PRE><*TD><*TR><*TABLE><*HTML>
-For even more information about how [QwikiWiki](/resources/QwikiWiki/) converts normal text into attractive HTML, visit www.qwikiwiki.com.
+For even more information about how [QwikiWiki]({{ "/resources/qwikiwiki/" | relative_url }}) converts normal text into attractive HTML, visit www.qwikiwiki.com.

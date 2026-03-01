@@ -26,13 +26,13 @@ Execution Time: The exercise runs until termination, which is about 5-7 minutes 
 
 ## Planning For KLA
 
-Materials:  Optional: Slide explaining the KLA (ppt, <a href="/assets/attachments/KLATopologicalSort.pdf>pdf<*a>)
+Materials:  Optional: Slide explaining the KLA (ppt, [pdf]({{ "/assets/attachments/KLATopologicalSort.pdf" | relative_url }}))
 
 Preparation:  None really required, other than being assured you understand the KLA. 
 
 ## Execution Of KLA
 
-<img src="/assets/attachments/SIGCSE2004MobTopoSort.jpg" width="640" style="display: block; margin: 0 auto;">
+<img src="{{ "/assets/attachments/SIGCSE2004MobTopoSort.jpg" | relative_url }}" width="640" style="display: block; margin: 0 auto;">
 
 Description: All students are asked to stand, and choose a nearby neighbor (but don't tell them they've been chosen). Then, all at once, they should put a hand on that person's shoulder. Tell them they've just formed a human graph (their bodies are nodes, their hand a directed edge) of *n* nodes and *n* edges. You're simulating the world of "The Godfather" with mob bosses on every corner, but really running the topological sort algorithm. (The instructor controls the flow of time in this activity, in a unit of "days".)
 
@@ -74,4 +74,4 @@ Use Notes: **add your use notes here!**
 ## Related Resources
 
 - <a href="http://www.nist.gov/dads*HTML*topologcsort.html">NIST definition of Topological Sort<*a>
-- <a href="http://mathworld.wolfram.com/[TopologicalSort](/activities/TopologicalSort/).html">Mathworld Topological Sort</a>
+- <a href="http://mathworld.wolfram.com/[TopologicalSort]({{ "/activities/TopologicalSort/" | relative_url }}).html">Mathworld Topological Sort</a>

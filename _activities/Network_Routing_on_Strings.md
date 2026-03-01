@@ -8,7 +8,7 @@ Date: January 2, 2007, 12:52 pm
 
 ## Network Routing On Strings
 
-Designed by Tammy [VanDeGrift](/activities/VanDeGrift/) and Sarah Schwarm
+Designed by Tammy [VanDeGrift]({{ "/activities/VanDeGrift/" | relative_url }}) and Sarah Schwarm
 
 ## Entered by Steven Wolfman
 

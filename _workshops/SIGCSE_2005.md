@@ -5,10 +5,10 @@ layout: workshop
 
 Welcome to SIGCSE 2005! We had a great workshop this year, introducing new KLAs, bringing back all of the fun activities that we conducted last year, and adding a whole new section on KLA evaluation. We hope all of the participants had lots of fun and learned some valuable techniques towards building KLAs.
 
-1. **[Hash Functions](/activities/Hash_Functions/)**
-2. **[Data Structures](/activities/Data_Structures/)**: Is there a cycle in the linked list?
-3. **[Merge Sort](/activities/Merge_Sort/)**
-4. **[Quadratic Growth](/activities/Quadratic_Growth/)**
+1. **[Hash Functions]({{ "/activities/hash-functions/" | relative_url }})**
+2. **[Data Structures]({{ "/activities/data-structures/" | relative_url }})**: Is there a cycle in the linked list?
+3. **[Merge Sort]({{ "/activities/merge-sort/" | relative_url }})**
+4. **[Quadratic Growth]({{ "/activities/quadratic-growth/" | relative_url }})**
 
 
 **Other possible KLA ideas**:
