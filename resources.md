@@ -29,9 +29,8 @@ Templates, design patterns, research papers, and supporting materials for creati
 
 ## Research & Background
 
-{% assign research_resources = site.resources | where_exp: "item", "item.title contains 'Paper' or item.title contains 'Background' or item.title contains 'Philosophy' or item.title contains 'Paradigm'" %}
-
-{% for resource in research_resources %}
+{% for resource in site.resources %}
+  {% if resource.title contains 'Paper' or resource.title contains 'Background' or resource.title contains 'Philosophy' or resource.title contains 'Paradigm' %}
 <div style="border-bottom: 1px solid #eee; padding: 1rem 0;">
   <h3><a href="{{ resource.url | relative_url }}">{{ resource.title }}</a></h3>
   {% if resource.content contains 'Summary:' or resource.content contains 'Overview:' %}
@@ -44,13 +43,13 @@ Templates, design patterns, research papers, and supporting materials for creati
     <p>{{ summary | truncate: 200 }}</p>
   {% endif %}
 </div>
+  {% endif %}
 {% endfor %}
 
 ## Other Resources
 
-{% assign other_resources = site.resources | where_exp: "item", "item.title contains 'KLAs' or item.title contains 'Links' or item.title contains 'Props' or item.title contains 'Notes' or item.title contains 'Home' or item.title contains 'QwikiSyntax' or item.title contains 'QwikiWiki'" %}
-
-{% for resource in other_resources %}
+{% for resource in site.resources %}
+  {% if resource.title contains 'KLAs' or resource.title contains 'Links' or resource.title contains 'Props' or resource.title contains 'Notes' or resource.title contains 'Home' or resource.title contains 'QwikiSyntax' or resource.title contains 'QwikiWiki' %}
 <div style="border-bottom: 1px solid #eee; padding: 1rem 0;">
   <h3><a href="{{ resource.url | relative_url }}">{{ resource.title }}</a></h3>
   {% if resource.content contains 'Summary:' or resource.content contains 'Overview:' %}
@@ -63,6 +62,7 @@ Templates, design patterns, research papers, and supporting materials for creati
     <p>{{ summary | truncate: 200 }}</p>
   {% endif %}
 </div>
+  {% endif %}
 {% endfor %}
 
 ---
