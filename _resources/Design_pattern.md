@@ -14,11 +14,11 @@ The framework below will help you think about how to describe your KLA to others
 
 To write your own KLA, follow this four step procedure:
 
-1. Add a Qwiki link to the [KLAs](KLAs.md) list.  (Go to the [KLAs](KLAs.md) page, click the edit button at the bottom, and then add your KLA to the list.  Be sure to surround its name by underscores or use [CamelCase](CamelCase.md).)
+1. Add a Qwiki link to the [KLAs](/activities/KLAs/) list.  (Go to the [KLAs](/activities/KLAs/) page, click the edit button at the bottom, and then add your KLA to the list.  Be sure to surround its name by underscores or use [CamelCase](/activities/CamelCase/).)
 
-2. Copy the [KLA Template](KLA_Template.md).  (Go to the [KLA Template](KLA_Template.md) page, click the edit button, and copy everything in the source.  You'll use that as the basis for your new page!)
+2. Copy the [KLA Template](/resources/KLA_Template/).  (Go to the [KLA Template](/resources/KLA_Template/) page, click the edit button, and copy everything in the source.  You'll use that as the basis for your new page!)
 
-3. Paste the template onto your page.  (Click the ? after your KLA's Qwiki link in the [KLAs](KLAs.md) list, click the "Edit this page" button, and paste the copied template.)
+3. Paste the template onto your page.  (Click the ? after your KLA's Qwiki link in the [KLAs](/activities/KLAs/) list, click the "Edit this page" button, and paste the copied template.)
 
 4. Fill in the template with the details of your KLA!  (Replace the italicized explanations of the parts of the template with your own descriptions.)
 

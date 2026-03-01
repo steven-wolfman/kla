@@ -11,12 +11,12 @@ SIGCSE 2006 Workshop Initial Notes
 Todo list:
 
 - Plan opening KLA: should be highly interactive, full "class" participation
-  - Perhaps [Hash Functions](Hash_Functions.md)?
+  - Perhaps [Hash Functions](/activities/Hash_Functions/)?
 - Plan sample KLA (near beginning)
-  - [Flow Chart Hopscotch](Flow_Chart_Hopscotch.md)?
-  - [Human Mystery Interface](Human_Mystery_Interface.md)?
+  - [Flow Chart Hopscotch](/activities/Flow_Chart_Hopscotch/)?
+  - [Human Mystery Interface](/activities/Human_Mystery_Interface/)?
   - A linked list example or a sorting example
-  - **Steve**: write up [Spotty Dotty the Continuation Dalmatian](Spotty_Dotty_the_Continuation_Dalmatian.md)
+  - **Steve**: write up [Spotty Dotty the Continuation Dalmatian](/activities/Spotty_Dotty_the_Continuation_Dalmatian/)
     - Add a tape recorder or paper to record the continuation at some point and stress the idea of resuming the continuation later
     - Something about hats that Andy understands
     - People hold on to objects?

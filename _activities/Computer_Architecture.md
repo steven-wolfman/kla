@@ -5,7 +5,7 @@ layout: activity
 
 Computer Architecture: Multilevel Cache
 
-Designed by Dick James, Margaret Reck, Rich Clemens, Beth Simon, Lori ![DeLooze](DeLooze.md), Michael Tashbook
+Designed by Dick James, Margaret Reck, Rich Clemens, Beth Simon, Lori DeLooze, Michael Tashbook
 
 This KLA is transcribed from the SIGCSE 2004 Special Session on KLAs.
 

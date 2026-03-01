@@ -3,7 +3,7 @@ title: "New Paradigms for Introductory Computing Courses"
 layout: resource
 ---
 
-From: [HeidiEllis](HeidiEllis.md) (heidi.ellis@trincoll.edu)
+From: [HeidiEllis](/activities/HeidiEllis/) (heidi.ellis@trincoll.edu)
 Date: March 29, 2007, 7:41 am
 
 ## New Paradigms For Introductory Computing Courses
@@ -18,12 +18,12 @@ This page is a record of what happened and a platform for further discussion.
 
 ## Topics Raised
 
-- What are the possible curriculum paradigms for intro CS courses? [Curriculum Paradigms for Intro CS](Curriculum_Paradigms_for_Intro_CS.md)
+- What are the possible curriculum paradigms for intro CS courses? [Curriculum Paradigms for Intro CS](/activities/Curriculum_Paradigms_for_Intro_CS/)
 - How can we get more CS into the intro course? 
 - How much programming should we have in an intro CS course?  (And, how do we do it?)
-- How can we articulate a CS 0 course to CS1*2?  [Articulating CS0](Articulating_CS0.md)
+- How can we articulate a CS 0 course to CS1*2?  [Articulating CS0](/activities/Articulating_CS0/)
 - How do we attract diverse students to our programs, and how do we "track" (thread?) them through our programs?
-- What three learning goals can we cover in CS 0? [CS0 Learning Goals](CS0_Learning_Goals.md)
+- What three learning goals can we cover in CS 0? [CS0 Learning Goals](/activities/CS0_Learning_Goals/)
 - How can we connect the popular software applications of the day to CS? (e.g. utube)
 - Can students survive a CS program if they never get a systems language (like C)?
 - What are the possible delivery paradigms for intro CS courses?
@@ -37,4 +37,4 @@ Add yourself here if you'd like!
 
 ## A Note On The Wiki
 
-Apologies for piggybacking on our <a href="http:**ws.cs.ubc.ca*~kla*index.php">Kinesthetic Learning Activities wiki<*a>, but it was the quickest way to get things up!
+Apologies for piggybacking on our <a href="http://ws.cs.ubc.ca/~kla*index.php">Kinesthetic Learning Activities wiki<*a>, but it was the quickest way to get things up!

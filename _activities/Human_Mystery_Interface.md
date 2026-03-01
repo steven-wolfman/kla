@@ -122,4 +122,4 @@ Use Notes: **add your use notes here!**
 
 ## Related Resources
 
-- The ![LeapFrog](LeapFrog.md) Twist and Shout is a simple but effective toy interface listed in Don Norman's list of good designs: http:**www.jnd.org*[GoodDesign](GoodDesign.md).html
+- The LeapFrog Twist and Shout is a simple but effective toy interface listed in Don Norman's list of good designs: http://www.jnd.org/[GoodDesign](/activities/GoodDesign/).html

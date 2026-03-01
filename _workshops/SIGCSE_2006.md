@@ -11,6 +11,6 @@ We had a fun workshop this year with 13 participants. Thanks to all for coming!
 Here are the two completed KLAs that were developed at this year's workshop:
 
 - _Set-associative[caching](caching.md)
-- [Event handlers in Java](Event_handlers_in_Java.md)
+- [Event handlers in Java](/activities/Event_handlers_in_Java/)
 
-[Notes](Notes.md) for preparation for this year's SIGCSE.
+[Notes](/activities/Notes/) for preparation for this year's SIGCSE.

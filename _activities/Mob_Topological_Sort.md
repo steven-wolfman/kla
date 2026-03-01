@@ -26,7 +26,7 @@ Execution Time: The exercise runs until termination, which is about 5-7 minutes 
 
 ## Planning For KLA
 
-Materials:  Optional: Slide explaining the KLA (<html><a href="data*Mob[Topological Sort](Topological_Sort.md)attach*KLATopologicalSort.ppt">ppt<*a>, <a href="data*Mob[Topological Sort](Topological_Sort.md)attach*KLATopologicalSort.pdf">pdf<*a><*html>)
+Materials:  Optional: Slide explaining the KLA (ppt, <a href="/assets/attachments/KLATopologicalSort.pdf>pdf<*a>)
 
 Preparation:  None really required, other than being assured you understand the KLA. 
 
@@ -73,5 +73,5 @@ Use Notes: **add your use notes here!**
 
 ## Related Resources
 
-- <a href="http:**www.nist.gov*dads*HTML*topologcsort.html">NIST definition of Topological Sort<*a>
-- <a href="http:**mathworld.wolfram.com*[TopologicalSort](TopologicalSort.md).html">Mathworld Topological Sort</a>
+- <a href="http://www.nist.gov/dads*HTML*topologcsort.html">NIST definition of Topological Sort<*a>
+- <a href="http://mathworld.wolfram.com/[TopologicalSort](/activities/TopologicalSort/).html">Mathworld Topological Sort</a>

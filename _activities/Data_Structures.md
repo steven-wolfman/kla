@@ -8,7 +8,7 @@ Date: August 2, 2006, 6:07 am
 
 ## Matching Types
 
-Designed by Bill ![McClung](McClung.md), Jeff Forbes, Ziping Liu, Monisha Pulimood, and Andrew Greene.  
+Designed by Bill McClung, Jeff Forbes, Ziping Liu, Monisha Pulimood, and Andrew Greene.  
 
 This KLA is transcribed from the SIGCSE 2005 Workshop on KLAs.
 

@@ -8,7 +8,7 @@ Date: January 2, 2007, 12:52 pm
 
 ## Network Routing On Strings
 
-Designed by Tammy [VanDeGrift](VanDeGrift.md) and Sarah Schwarm
+Designed by Tammy [VanDeGrift](/activities/VanDeGrift/) and Sarah Schwarm
 
 ## Entered by Steven Wolfman
 
@@ -135,4 +135,4 @@ Use Notes: **add your use notes here!**
 
 ## Related Resources
 
-- Header information used in the Internet Protocol (IP): http:**www.erg.abdn.ac.uk*users*gorry*course*inet-pages*ip-packet.html
+- Header information used in the Internet Protocol (IP): http://www.erg.abdn.ac.uk/users*gorry*course*inet-pages*ip-packet.html

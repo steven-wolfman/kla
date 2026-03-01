@@ -8,7 +8,7 @@ Date: October 21, 2009, 7:25 am
 
 ## Your KLA Name Here
 
-*Comments in this document are in italics (surrounded by forward slashes in the text).  Remove them and replace them with your own content.  (See* [Human Mystery Interface](Human_Mystery_Interface.md) *for a complete example built from this template.)*
+*Comments in this document are in italics (surrounded by forward slashes in the text).  Remove them and replace them with your own content.  (See* [Human Mystery Interface](/activities/Human_Mystery_Interface/) *for a complete example built from this template.)*
 
 *Replace the title with your own.  Start each word with an upper-case letter.*
 
