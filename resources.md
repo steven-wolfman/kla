@@ -10,9 +10,8 @@ Templates, design patterns, research papers, and supporting materials for creati
 
 ## Design & Implementation
 
-{% assign design_resources = site.resources | where_exp: "item", "item.title contains 'Template' or item.title contains 'Design' or item.title contains 'Heuristics' or item.title contains 'Building Blocks'" %}
-
-{% for resource in design_resources %}
+{% for resource in site.resources %}
+  {% if resource.title contains 'Template' or resource.title contains 'Design' or resource.title contains 'Heuristics' or resource.title contains 'Building Blocks' %}
 <div style="border-bottom: 1px solid #eee; padding: 1rem 0;">
   <h3><a href="{{ resource.url | relative_url }}">{{ resource.title }}</a></h3>
   {% if resource.content contains 'Summary:' or resource.content contains 'Overview:' %}
@@ -25,6 +24,7 @@ Templates, design patterns, research papers, and supporting materials for creati
     <p>{{ summary | truncate: 200 }}</p>
   {% endif %}
 </div>
+  {% endif %}
 {% endfor %}
 
 ## Research & Background
