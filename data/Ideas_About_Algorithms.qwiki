@@ -1,0 +1,75 @@
+Ideas About Algorithms
+
+Designed by David G. Kay
+
+This KLA is transcribed from the SIGCSE 2004 Special Session on KLAs.
+
+Overview To KLA
+
+*Summary*: To be added. 
+
+Learning Goals: At the end of this exercise, students will understand...
+
+. Algorithms (general idea)
+. linear vs. log time
+. parallelism
+. divide and conquer
+. experimental analysis of running time
+
+Course And Level: As young as kindergarten (5 years)
+
+Class Size: minimum of 30 or so for good results
+
+Preparation Time: none
+
+Execution Time: about 30 min
+
+
+Planning For KLA
+*Materials*:
+. A stack of index cards (or punch cards)
+
+*Preparation:* 
+ Introduction to group: Computer scientists study algorithms. An algorithm is a process, a procedure, like following a recipe. We can study which way of doing something, which algorithm, takes less time. We can do an experiment. 
+ Here is a pile of cards. We want to pass them around so each person has one. We have two algorithms, "Pass the pile" and "Split the pile".
+
+As always, read this description carefully and practice the KLA before using it in class!
+
+Execution Of KLA
+
+*Description*: 
+Explain "Pass the pile" and do a short dry run: Each person takes a card, gives the pile to the next person, then goes and stands by the wall. * 
+
+Explain "Split the pile" and do a short dry run: Take card, divide remaining pile in two (not necessarily perfectly equally), give each pile to someone else, and then go stand by the wall. *
+
+Have someone be the timekeeper and count out seconds(or keep track silently). 
+1. Start off with "Pass the pile". Give pile to one person. Start the timekeeper, stop when everyone has a card.
+2. Reassemble the group. Re-collect the cards. Start off with "Split thew pile" (perhaps with a reminder of how it goes). Have timekeeper count. Stop when everyone has a card. 
+3. Compare times. Hope "Split the pile" was shorter. Ask class why. Discuss. 
+
+*I did this with a group of about 40 5 and 6 year olds. To keep them from milling around and interfering with the process after they got their cards, I had them go stand aside once they had a card. 
+
+Variants And Extra Topics: 
+
+Constraints On KLA
+
+Would your KLA work if your students had the following constraints:
+. Limited Vision: 
+. Limited Hearing: Only issue is delivering instructions. You could write them out.  
+. Limited Mobility: 
+. Trouble Speaking:
+. Touch Aversion:
+. Other:
+
+Pitfalls Of KLA
+
+Once you have a card, have young people do something like go to the wall - their seat!
+
+Feedback And Use Notes
+
+Feedback: *add your feedback here!*
+
+Use Notes: *add your use notes here!*
+
+
+Related Resources

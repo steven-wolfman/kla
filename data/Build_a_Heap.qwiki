@@ -1,0 +1,62 @@
+From: Guest ()
+Date: June 10, 2006, 11:08 pm
+
+Build A Heap
+
+This KLA is transcribed from the SIGCSE 2004 Special Session on KLAs.
+
+Overview To KLA
+
+Author: Suzanne B., David L., Arnie D., Carol B., Michael G., and Alicia K.
+
+Summary: How to turn a binary tree into a min heap
+
+Learning Goals: to be added
+
+Course And Level: The KLA is appropriate for first semester sophomore level classes
+
+Class Size: The class must have more than 10 students
+
+Preparation Time: Very little prep time is needed
+
+Execution Time: The exercise will take about 10 minutes 
+
+
+Planning For KLA
+
+Materials: Large visible keys, 8X11 sheets, string
+
+Preparation: The instructor must write numbers on the sheets and hook string on them so they can hang on a student.  
+
+Execution Of KLA
+
+Description: Each student attaches a key to their back.  Have students make a binary tree by putting a hand on each shoulder of a child.  Adjust from bottom up. 
+
+Variants And Extra Topics: below
+
+Constraints On KLA
+
+These students could observe.
+
+Would your KLA work if your students had the following constraints:
+. Limited Vision: (including color-blindness) 
+. Limited Hearing: 
+. Limited Mobility:
+. Trouble Speaking:
+. Touch Aversion: (including cultural)
+. Other:
+
+Pitfalls Of KLA
+
+Rooms with fixed seating need at least 10 students
+
+Feedback And Use Notes
+
+Feedback: add your feedback here!
+
+From the SIGCSE 2004 KLA Special Session
+. "Could use hats instead of touching (see BST)."
+. "Can't see front and back at the same time.  Good or bad?"
+. "Could arrange linearly (as an array) with string to show the tree relationship in the array."
+
+Use Notes: add your use notes here!

@@ -1,0 +1,49 @@
+Cons Cell Jeopardy
+
+Designed by Andy Begel and Dan Garcia
+
+Overview To KLA
+
+Summary: Groups of students act out box-and-pointer diagrams while the rest of the class guesses the underlying cons expression.
+
+Learning Goals: Students will learn to translate between box-and-pointer diagrams and Scheme expressions and to recognize cons cell data structures in non-traditional representations.
+
+Course And Level: Suitable for an introductory Scheme (or Lisp) programming course once students have begun forming cons cell data structures and drawing box-and-pointer diagrams.
+
+Class Size: best for ~30, requires ~10, works for large classes
+
+Preparation Time: 10&ndash;15 minutes, reusable
+
+Execution Time: tunable between ~15 minutes&ndash;one hour
+
+Planning For KLA
+
+Materials:  List of box-and-pointer diagrams on separate sheets of paper to act out (see description/pitfalls for details).  Sheets of paper with needed values writ large.
+
+Preparation:  The instructor should prepare a list of box-and-pointer diagrams she wants students to understand.  Focus on valuable concepts, but throw a contortionist's challenge or two in just for fun.  Students will be the cons cells and pointers, but the instructor should also prepare sheets of paper with any values included in the expressions written very large in marker.
+
+Execution Of KLA
+
+Description:  Students divide into groups of five. One group at a time comes to the front of the room and is given a box-and-pointer diagram on paper. The students must physically act out the diagram. Each student is a cons cell: her left hand is the car pointer and her right hand is the cdr pointer. A folded arm represents a null pointer. Pointing at oneself represents a self-reference. If a car or cdr points to a value, the student holds a large piece of paper inscribed with the value. 
+
+Once the students are ready, groups of students in the audience must work out the Scheme expression that would create the structure presented. When they have it, they "buzz" in and announce their answer, and a new group gets to act out a structure. The box-and-pointer diagrams start out simple to warm students up to the task, but proceed to complex diagrams (even self-referential structures which require naming intermediate cons cells).
+
+As always with a KLA, you can end with a discussion of valuable lessons and contrasts with the underlying concept (of cons cell data structures).
+
+*Varints And Extra Topics*:
+
+Pitfalls Of KLA
+
+Cons Cell Jeopardy shares some pitfalls with all other KLAs. Students may be uncomfortable being singled out or acting "silly." We believe that establishing a culture of participation early in the course can ameliorate these issues. The instructor must also remain aware of the need to intervene if it stalls or gets out of hand.
+
+Several pitfalls are specific to this exercise. It requires students to be mobile and able to stand for brief periods. Some cons cell structures may require the students to contort their arms and bodies (&agrave; la Twister). Students are also assumed to have two usable arms. Instructors should consider the physical limitations of their students and practice proposed diagrams with friends before using them in class. The instructor should instruct students to point rather than touching but warn that some incidental contact might occur anyway (and excuse uncomfortable students). 
+
+Apart from these, the biggest pitfall is poorly-prepared cons cell diagrams: instructors must construct meaningful structures and remember to arrange them in order from easy to challenging.
+
+Feedback And Use Notes
+
+Feedback: *add your feedback here!*
+
+Use Notes: *add your use notes here!*
+
+Related Resources

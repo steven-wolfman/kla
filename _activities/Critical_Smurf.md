@@ -1,0 +1,87 @@
+---
+title: "Critical Smurf"
+layout: activity
+---
+
+From: Gerard Tel (gerard@cs.uu.nl)
+Date: October 21, 2009, 7:51 am
+
+## Critical Smurf
+
+Designed by Gerard Tel (gerard@cs.uu.nl, Utrecht University)
+
+
+## Overview To KLA
+
+Summary: Some 10 students dance or stamp their feet, following the rules of Dijkstra's Self-Stabilizing Token Ring.  After a surprisingly short time, the group stabilizes to an organized round-robin dance.
+The activity can give students a feeling of the difficulties of designing a distributed application: lack of centralized control, limited communication, basing decisions on local information.  (When used in a Distributed course, students may have obtained this insight earlier.)
+
+Learning Goals: 
+
+At the end of this exercise, students will...
+
+- know Dijkstra's Token algoritm,
+- be aware of the algoritmic issues state complexity, time complexity,
+- understand the variant function used in the proof.
+
+Course And Level: Suitable for undergraduate course on Distributed Algorithms, Programming, or Systems.  In earlier lectures, the students have learned about Critical Sections, and about fault tolerance.
+
+Class Size: At most ten students can participate, the rest of the group can watch. The second demonstration ("compact token ring") can use a different group if you want to involve more students.
+
+Preparation Time: Besides disigning the activity, no preparation is necessary (except to make the situation a bit humourous, I printed one red and several blue Smurf Diplomas).
+
+Execution Time: 10 to 20 minutes for the first demonstration. The Compact demonstration may take another 15 minutes.
+
+
+## Planning For KLA
+Materials: This KLA runs without any material at all.
+
+Preparation: The activity is part of a lecture on Dijkstra's Self-Stabilizing Token Ring. Of course I presume the teacher prepares a lecture, and knows what he wants to say about the topic.
+
+As always, read this description carefully and practice the KLA before using it in class!
+
+## Execution Of KLA
+
+About Smurfs: Smurfs are small blue comic characters.  Their leader, Papa Smurf, has red clothes and the others are dressed in white.  See "Smurf" in Wikipedia: http:/*en.wikipedia.org*wiki*Smurf.
+
+Description: Teacher start a story about Papa Smurf being annoyed about the Smurfs.  Here teacher interrupts himself and says the story will be more interesting if somebody from the audience assist as Papa.  Papa is annoyed about the Smurf because they "smurf" chaotically all the time, while Papa requires that "smurfing" is Critical: at must one smurf may smurf at any given time.  Here of course we call the assistance of some 8 or 9 more students to play the role of smurfs.
+Now a smurf may have a *state*, an amount of fingers raised up; for humans this is 0 to 10, which gives 11 states.  Papa arranges all smurfs, including himself, in a circle, and each takes a random state.  The game requires each smurf (so write this on the board in *blue*) to compare his state to the next state on the right.  The *white* rule (for plain smurfs) is: when UNEQUAL, smurf and copy.  The *red* rule (for Papa) is: when EQUAL, smurf and increment.
+As a result, without any global coordination, many smurfs initially smurf at the same time, while within a few steps, there is one active smurf at any time, and activity rotates.  The teacher now may ask some smurfs to mess up their state, or even rearrange the group, and the situation will stabilize again.
+
+
+**Variants And Extra Topics**: 
+
+- Compact Solution: The number of participating smurfs is limited because the proof requires that in the initial situation, at least one local state does not occur.  This limits the size of the group to the number of fingers, and particularly for smurfs this would be impractically small.  Dijkstra's *compact* token ring usues only three states (rock, paper, scissor) regardless of the number of participants.
+
+- Uniformity: The demonstrated solution relies on the presence of Papa, following a different rule.  Would the algorithm still work if there are multiple Papas, or if Papa is absent?  There exists a *Uniform* token solution, but there are also stabilizing *Elections* ("software Papa").
+
+- Some Story Telling: Stabilization is a form of fault tolerance, assuming that machines return to normal behavior after a state-destructing fault.  In the comics, the Smurfs have an evil enemy, Gargamel, who always kidnaps and annoys smurf.  Of course, at the end of each story, all smurfs return home safely and without any sustaining consequences of Gargamels misbehavior.  This of course translates to the circumstance that, whatever happens, only affects the configuration, but at some time, all smurfs will resume correct adherence to the algorithm rules.
+
+## Constraints On KLA
+
+Would your KLA work if your students had the following constraints:
+- Limited Vision: A participant must observe the state of his right neighbor, but the activity could be modified to blind participants if touching is no problem.
+- Limited Hearing: hearing-impaired can participate because the activity does not make use of sound communication, but the rules of the game should be communicated in written form, of course.
+- Limited Mobility: No problem at all; the activity assumes that participants can be arranged in a circle or row, but the critical smurfing activity can be anything, even like blinking an eye.  Participants should be able to keep an observable state.
+- Trouble Speaking: Participants need not speak at all.
+- Touch Aversion: In the basic form, no touching is required, just looking at each others hands. 
+- Other: Not that I know of.
+
+## Pitfalls Of KLA
+
+- Speed: Stabilization to Critical Smurf is fast!  So you may run the game a few times and the audience should look quickly to see what happens.
+
+
+## Feedback And Use Notes
+
+*(don't give feedback on your own KLA!)*
+
+Feedback: **add your feedback here!**
+
+Use Notes: **add your use notes here!**
+
+- Used on June 8, 2009, in a group of 40 students of Distributed Programming (author, Gerard Tel).  Reactions: Very funny, makes algorithm very clear, good for classroom atmosphere.  Helped to understand the topic *better* and even more to understand it *faster*.
+
+## Related Resources
+
+*You or later users of the wiki can add links (that don't fit into the text above) to related discussions, papers, repositories, examples, etc./

@@ -1,0 +1,70 @@
+---
+title: "Constructor Calls"
+layout: activity
+---
+
+## Constructor Calls
+
+Designed by workshop participants.
+
+## Overview To KLA
+
+Summary: Shows how a constructor can turn individual arguments into a coherent object.
+
+Learning Goals:  Students will understand how a constructor returns a single aggregate value from multiple inputs. 
+
+Course And Level:
+ 
+Class Size: 
+
+Preparation Time: 5 minutes.
+
+Execution Time: 5 minutes.
+
+## Planning For KLA
+Materials: Hats and Sunglasses (or any two kinds of props that people can wear). One rope long enough for up to 5 people to grab. 
+
+Preparation: None.
+
+As always, read this description carefully and practice the KLA before using it in class!
+
+## Execution Of KLA
+
+Description: 
+
+public Team teamBuilder(Hat a, Hat b, Hat c, Sunglasses d, Sunglasses e); 
+
+This is a constructor that takes 3 hats and 2 sunglasses and forms them into a Team. 
+
+1. Instructor picks one person to be the constructor function.
+2. Give hats and sunglasses to students in class. Have them mill around a small area. 
+3. Instructor picks 3 hat-wearers and 2 sunglasses wearers from the crowd and hands them each to the constructor person, who organizes them into a group. 
+4. The constructor then wraps the rope around the group and asks them to hold onto it.
+5. The constructor then returns the wrapped group to the instructor who then leads them around the room by the rope, indicating that they are an aggregate object.
+
+**Variants And Extra Topics**: 
+
+Make this an array constructor and have each argument to the constructor hold onto the rope in parameter order. Then drag the end of the rope to lead them around. Don't wrap the rope around the people. 
+
+
+## Constraints On KLA
+
+Would your KLA work if your students had the following constraints:
+- Limited Vision: (including color-blindness)
+- Limited Hearing: 
+- Limited Mobility:
+- Trouble Speaking:
+- Touch Aversion: (including cultural)
+- Other:
+
+## Pitfalls Of KLA
+
+Make sure the rope is long enough to go around the 5 people. 
+
+
+## Feedback And Use Notes
+
+Feedback: **add your feedback here!**
+
+Use Notes: **add your use notes here!**
+

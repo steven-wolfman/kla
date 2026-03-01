@@ -1,0 +1,71 @@
+---
+title: "Matching Types Part Two"
+layout: activity
+---
+
+## Matching Types
+
+Designed by Fran, Kathy, Caryn, Betty, Les, and Jennifer.  
+
+This KLA is transcribed from the ISTE CS&IT Symposium at SIGCSE 2005.
+
+## Overview To KLA
+
+Summary: To be added 
+
+Learning Goals: At the end of this exercise, students will understand...
+- matching types
+
+Course And Level: To be added
+
+Class Size: To be added
+
+Preparation Time: To be added
+
+Execution Time: To be added
+
+
+## Planning For KLA
+
+**Materials**:
+- A variety of objects both similar and dislike.
+
+**Preparation**: To be added.
+
+As always, read this description carefully and practice the KLA before using it in class!
+
+## Execution Of KLA
+
+**Description**: 
+1. Teacher holds one object. Students select object from items available and walk to teacher.
+2. If object matches teacher type (similar) accept - match - yes. Else, not accepted - no.
+3. Students conjecture the reason for a match or non match.
+4. Repeat with multiple parameters and types. 
+
+**Variants And Extra Topics**:
+- Multiple parameters. 
+  - Type and Order
+- Inheritance.
+
+## Constraints On KLA
+
+Would your KLA work if your students had the following constraints:
+- Limited Vision: 
+- Limited Hearing: 
+- Limited Mobility: 
+- Trouble Speaking:
+- Touch Aversion: 
+- Other:
+
+## Pitfalls Of KLA
+
+Only one item per student. 
+
+## Feedback And Use Notes
+
+Feedback: To be added 
+
+Use Notes: **add your use notes here!**
+
+
+## Related Resources

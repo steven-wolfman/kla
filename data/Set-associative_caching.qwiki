@@ -1,0 +1,84 @@
+From: Guest ()
+Date: March 7, 2006, 2:46 pm
+
+Set-Associative Caching
+
+/Comments in this document are in italics (surrounded by forward slashes in the text).  Remove them and replace them with your own content.  (See/ _Human_Mystery_Interface_ /for a complete example built from this template.)/
+
+/Replace the title with your own.  Start each word with an upper-case letter./
+
+/Include affiliation and contact info below if you'd like:/
+
+Designed by /Author Name/
+
+/We would like you to lodge a complete description of your KLA.  However, this being a wiki, you should feel free to leave your KLA as a "stub" if necessary: an incomplete page that invites further editing by other wiki users.  If so, please mark it as a stub at the top and put in enough information for others to carry your efforts on./
+
+Overview To KLA
+
+Summary: /1-3 sentence summary of your KLA.  What is it?  What will it accomplish?  When should I use it?/
+
+Learning Goals: /What does your KLA teach students?  A good start is:/ 
+
+At the end of this exercise, students will...
+
+. /believe learning goal 1/
+. /understand learning goal 2/
+. /etc./
+
+Course And Level: /What course is your KLA appropriate for?  How (im)mature should students be for the KLA? Are there prerequisites for your KLA?  There may be many different possibilities, but try to list the most appropriate courses first.  Also, you might mention how variants (using the "extra topics" section below) can address different courses and levels./
+
+Class Size: /How large or small must the class be?  Also, does the exercise scale well as classes get larger or smaller?/
+
+Preparation Time: /About how long will it take the instructor (and others, if relevant) to prepare the exercise.  If it's important, include both the fixed (first offering) and marginal (subsequent offering) times./
+
+Execution Time: /About how much class time will the exercise take.  (This will likely be a range.)  Also, mention whether the length is easy to control or the exercise just runs until it's done./
+
+
+Planning For KLA
+Materials: /What handouts, props, or other items does the exercise require?/
+
+Preparation: /What must the instructor do to prepare for the KLA?  Include the following at the end:/ 
+
+As always, read this description carefully and practice the KLA before using it in class!
+
+Execution Of KLA
+
+Description: /This is the core of your writeup.  Explain step-by-step how to execute the KLA.  To make this brief and clear, explain just one way to perform the KLA here (leave alternatives to the "Variants And Extra Topics" section below) and use commands.  For example, say "Ask for the first person's value and announce that this is the value of the #and# so far" rather than "Next, you should ask for the first person's value and announce that this is the value of the #and# (or #or# if you're using that) so far."  You can also attach diagrams, photos, or figures to this page and reference them by including their filenames within the Description./
+
+*Variants And Extra Topics*: 
+
+/Fill in a list of variants of and extensions to your KLA. Make the list as in the following:/
+
+. Extra Topic One: describe the extra topic here
+
+/Make sure that the title of each extra topic is capitalized./
+
+Constraints On KLA
+
+/Fill in your responses to the prompts below.  Please really think about these prompts and, when feasible, alter your description to account for these constraints.  Alternatively, you might summarize your response to all the prompts after the bulleted list./
+
+Would your KLA work if your students had the following constraints:
+. Limited Vision: (including color-blindness)
+. Limited Hearing: 
+. Limited Mobility:
+. Trouble Speaking:
+. Touch Aversion: (including cultural)
+. Other:
+
+Pitfalls Of KLA
+
+/What common problems or slip-ups should instructors using your KLA look out for?  Think of pedagogical pitfalls (e.g., students taking the metaphor of the call stack being like a row of students too literally), logistical pitfalls (e.g., the steep rake in many lecture halls will interfere with data movement in the grid multiprocessor simulation), and "environment" pitfalls (e.g., students should avoid use of abusive language while anthropomorphically role-playing various computing platforms or other problems that may lead to a negative classroom environment for one or more students)./
+
+Feedback And Use Notes
+
+/Leave the feedback section blank (don't give feedback on your own KLA!), but you should be able to add at least one entry to "Use Notes".  Replace the template provided below, including the information most relevant to your KLA./
+
+Feedback: *add your feedback here!*
+
+Use Notes: *add your use notes here!*
+
+. /Used Fall of 1973 in a 4500 person CS2 course.  Some comments about that use; perhaps how the use relates to variants, pitfalls, or optimal class type. (Author Name)/
+
+Related Resources
+
+/You or later users of the wiki can add links (that don't fit into the text above) to related discussions, papers, repositories, examples, etc./

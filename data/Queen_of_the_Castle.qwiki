@@ -1,0 +1,57 @@
+Queen Of The Castle
+
+This KLA is transcribed from the SIGCSE 2004 Special Session on KLAs.
+
+Overview To KLA
+
+Author: Alvarado, Adams, Nerton, and Garber
+
+Summary: Understanding gradients and search techniques
+
+Learning Goals: to be added
+
+Course And Level: This KLA is appropriate for an upper undergraduate class
+
+Class Size: The class should have about 30 students
+
+Preparation Time: Roughly 5-10 minutes of preparation time is needed
+
+Execution Time: The exercise will take about 15 minutes
+
+
+Planning For KLA
+
+Materials: Wand and tiara
+
+Preparation: Arrange room in a safe way and add objects of a different heights
+
+Execution Of KLA
+
+Description: Become familiar with search techniques (depth-first, breadth first).  Instruct the majority of students to arrange themselves to that the highest part of their body are at different heights.  The professor gives the tiara to the highest body part in the room.  Pick a seeker and give the wand.  Position seeker so they'll get stuck in a local maximum.  Instruct seeker to always move to a highest person one-step away until can't move anymore.
+
+Constraints On KLA
+
+Would your KLA work if your students had the following constraints:
+. Limited Vision: (including color-blindness)
+. Limited Hearing: 
+. Limited Mobility:
+. Trouble Speaking:
+. Touch Aversion: (including cultural)
+. Other:
+
+Pitfalls Of KLA
+
+To be added
+
+Feedback And Use Notes
+
+Feedback: add your feedback here!
+
+From the SIGCSE 2004 KLA Special Session
+. "Love it!"
+. "Great, but what if there are no women in the classroom?  One of the authors suggested 'King of the Hill'."
+
+Use Notes: add your use notes here!
+
+
+

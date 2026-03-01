@@ -1,0 +1,27 @@
+From: anonymous (noone@nowhere.com)
+Date: March 27, 2007, 2:06 pm
+
+CS0 Learning Goals
+
+Although we were tasked with selecting three learning goals, we stubbornly picked (at least) four instead at the SIGCSE 2007 bof.  Of course, those four break down into many others.  Our learning goal hierarchy is here.  Others should please share their hierarchies as well (or comment on this one!).
+
+Students who complete the CS0 course successfully should be able to:
+. think about problems algorithmically: 
+   . articulating the problem in CS terms, 
+      . design strategies for solving problems
+      . "selection, repetition, functions (abstraction?)"
+   . proposing solutions, 
+   . comparing solutions, [too much?]
+   . test solutions [basic testing: first pass does it work?]
+      . proof?
+. describe what constitutes computation
+   . get a handle on what type of thing is difficult or impossible to compute
+   . give examples of computational processes through many contexts
+. understand the scope of the CS field
+   . breadth of topics
+   . societal implications
+   . ethical implications
+   . history
+. have a reason to consider computer science as a discipline
+   . explain to a friend at least one idea in computer science that matters to *them*
+      . lucrative? beautiful? compelling?

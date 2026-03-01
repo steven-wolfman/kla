@@ -1,0 +1,83 @@
+---
+title: "Parameterized Student Sort"
+layout: activity
+---
+
+From: Guest ()
+Date: January 10, 2006, 4:08 pm
+
+## Parameterized Student Sort KLA
+
+## KLA Overview
+
+Author: Steve Wolfman, University of British Columbia
+
+Summary: a small group of students act as data in a list while other students act as a sort function and a comparator function. The internals of the comparator function are kept secret; so, students' intuitive understanding of the sorting process highlights the fact that they don't need to know how the comparator function works.
+
+Learning Goals: at the end of the exercise, students will...
+- understand why a function might take another function as an argument
+- understand how a function can use another function without knowing what it does
+- believe that parameterizing a function by another function can be useful
+- see the value of one type of modularization (using higher-order functions)
+
+Course And Level: introduction to functional programming, assuming students are comfortable with sorting (so, not CS1 students) and somewhat comfortable with functional programming (so, not the first week of FP); easily modified for introducing interfaces in an object-oriented programming class
+
+Class Size: about 6 volunteers will be needed; best in larger classes (since the volunteers themselves may be distracted by their part in the KLA)
+
+Preparation Time: minimal
+
+Execution Time: about 5-10 minutes
+
+
+## Planning For KLA
+
+Materials: none
+
+Preparation: read this description, make indicated choices (e.g., which comparator to use), and practice once or twice
+
+## Execution Of KLA
+
+Description: Call for about 4 volunteers.  Bring them to the front and explain that they are data.  (In ML, emphasize that each is of type `Person`; we can put a `[` on one end, commas in between, and a `]` on the other end to make a `Person list` .)  Point out that we can operate on these people as data, e.g., retrieving their names, their heights, etc.  
+
+Call for another volunteer.  Bring that person to the front and explain that they are the `sort` function.  They take a `Person list` and return a `Person list`.  Have the `sort` function sort the list by height.  (Bubble sort is a good choice because it uses no extra variables &mdash; read: no extra people &mdash; and only compares and swaps neighboring individuals &mdash; read: less jostling.  Admittedly, however, it isn't very functional.)  Make sure the data don't move around before they're told to by the `sort` function.  Part of the exercise is for students to understand how important separating these roles is for effective, modular code.
+
+Next, give a new type to the `sort` function.  `sort` now takes a `Person ** Person -> bool` function (i.e., a comparator) and a `Person list` and returns a `Person list`.  Call for one more volunteer from the audience to be the comparator function.  Make a show of pulling the comparator volunteer aside and whispering to just that student how comparisons will work.  (You might use amount of hair, first name alphabetical order, darkness of shirt*jacket, etc., or let the student choose.)  Ensure that the comparator understands how to perform comparisons without asking for help!
+
+Ask `sort` to perform the sort again.  If necessary, help the `sort` volunteer understand how and when to ask the comparator to operate.  As this second sorting proceeds, emphasize that `sort` doesn't need to know how the comparator operates! 
+
+When the sort is done, ask the comparator volunteer and the class if the students are sorted.  Give the class a chance to guess the comparator's function and then have the comparator reveal it so everyone can verify that the sort worked.  Emphasize again that `sort` didn't need to understand the comparator to successfully sort the data. 
+
+Diagrams: none
+
+Extra Topics: below
+
+- Currying: point out that partially applying `sort` to whatever comparator you chose creates a specialized sorting function.  E.g., if the comparator were "amount of hair", the partial application creates a reusable function that sorts people by how much hair they have.
+- Properties Of Functions: point out that the comparator actually has to fit more properties than just its type.  For example, it should be anti-symmetric, transitive, and stateless (i.e., always returning the same value for the same inputs).
+- Extra Practice: rather than revealing what the comparator does when you ask the class if the data is sorted, have them create an `isSorted` predicate that takes a `Person ** Person -> bool` function and a `Person list` and returns a `bool` indicating whether the list is sorted.  This is a good chance for them to compose their own higher-order fnuction (and see that not only the `sort` function becomes reusable with higher-order functions but also the comparator).
+
+## Constraints On KLA
+Would your KLA work if your students had the following constraints:
+- Limited Vision (including colour-blindness)
+- Limited Hearing
+- Limited Mobility
+- Trouble Speaking
+- Touch Aversion (including cultural)
+- Other
+
+This KLA is visual in that observing the students rearrange themselves emphasizes the sorting process.  However, narrating the process aloud and choosing an appropriate comparator (e.g., alphabetical order by name) can reduce the dependence on visual information.  Narrating the process also emphasizes the key learning goals of the exercise.  Only the `sort` function and comparator students need to speak, and the comparator need not say much.  No touching need occur, although whispering to the comparator function may disturb some students.  Only the students involved in the exercise need to be mobile; however, it *is/ important that they move to illustrate the process being performed.
+
+## Pitfalls Of KLA
+
+- This KLA treats students as data, which can reinforce a sense of inhumanity in the course.  Try to learn and use students' names during the exercise.  (That's another advantage of choosing alphabetical order by name as the comparator.  A disadvantage is that it's an obvious choice to the students.)
+- On the flip side, students may feel discomfort about not knowing each others' names already.  It's always embarassing to ask someone's name!  Be sure that you ask for all the volunteers names and use them repeatedly to scaffold the students, and be ready to jump in and supply a name before a student who has forgotten one becomes uncomfortable.
+- Be clear about where this "simulation" is faithful and where it isn't.  For example, sorting the students "in place" is not functional (but it is convenient for an exercise using people).  On the other hand, insisting that only the comparator compare pairs of people and the sort function decide which comparisons to make is faithful to the actual execution process.
+- Don't choose more than five students as data.  Larger groups take too long.  Also, three students is too few to really make the point.
+- It's easy to waste time talking about how to sort rather than talking about higher-order functions.  Keeping the number of volunteers to 4 will help with this.
+
+## Feedback And Use Notes
+
+Feedback: **add your feedback here!**
+
+Use Notes: **add your use notes here!**
+
+- Used Nov 9 2004 in a 45 person functional and logic programming course.  The first three volunteers were easy to get, but after that it was hard to get people.  I emphasized what an honor it was to be a function (since this was functional programming) and that convinced my `sort` volunteer.  Student names definitely caused some trouble; I emphasized that I had trouble remembering names and asked them if they felt that was a problem (they said no, of course!).  Segued from this into writing code for sort, but used insertion sort rather than bubble sort.  Perhaps using insertion rather than bubble for the exercise would have been better?

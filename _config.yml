@@ -1,0 +1,53 @@
+# Site settings
+title: "Kinesthetic Learning Activities Archive"
+description: "Static archive of the Kinesthetic Learning Activities wiki - hands-on CS education resources"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://steven-wolfman.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+
+# Collections
+collections:
+  activities:
+    output: true
+    permalink: /:collection/:name/
+  workshops:  
+    output: true
+    permalink: /:collection/:name/
+  resources:
+    output: true 
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "activities"
+    values:
+      layout: "activity"
+  - scope:
+      path: ""
+      type: "workshops" 
+    values:
+      layout: "workshop"
+  - scope:
+      path: ""
+      type: "resources"
+    values:
+      layout: "resource"
+
+# Exclude from processing
+exclude:
+  - data/
+  - cleanup-review/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

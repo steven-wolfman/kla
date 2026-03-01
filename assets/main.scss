@@ -1,0 +1,62 @@
+---
+---
+
+@import "minima";
+
+/* Custom styles for KLA site */
+.post-meta {
+  color: #828282;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.post-nav {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.post-nav a {
+  color: #2a7ae4;
+  text-decoration: none;
+}
+
+.post-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Activity-specific styles */
+.activity-type {
+  background: #f0f0f0;
+  padding: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #2a7ae4;
+}
+
+/* Navigation improvements */
+.site-nav .page-link {
+  margin-left: 20px;
+}
+
+/* Footer improvements */
+.footer-col-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-col-1, .footer-col-2 {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .footer-col-wrapper {
+    flex-direction: column;
+  }
+  
+  .footer-col-1, .footer-col-2 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

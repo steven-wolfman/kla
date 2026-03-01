@@ -1,0 +1,58 @@
+Matching Types
+
+Designed by CS&IT June 2005 participants.
+
+Overview To KLA
+
+Summary: Visual understanding of data type and how parameters must match when passed to a function. 
+
+Learning Goals: Types
+
+Course And Level: Introduction to Computer Science, high school or college.
+
+Class Size: 
+
+Preparation Time: 5 minutes.
+
+Execution Time: 5 minutes. Can be much longer if done improperly. (See pitfalls).
+
+
+Planning For KLA
+Materials: 2 of each of the following: string, sticks, beach balls, baseballs, eggs, boomerangs, pens, pencils, hats. Use a large variety of items so that no one would know if one of them is missing.
+
+Preparation: Put all props on a table. 
+
+Execution Of KLA
+
+Description: 
+
+1. Select any 2 items and hide them in front of you, but turn around so your back is to the class.
+2. Each student in turn selects 2 items and "calls" the function (out loud) with those two items. The left item matches the executor's left hand, and the right item matches the executor's right hand. 
+3. The executor answers Syntax Error (if both items are wrong and in the wrong place), or Parameter (1 or 2) matches.
+4. Repeat until students have figured out what the parameter items are. 
+
+*Variants And Extra Topics*: 
+
+Constraints On KLA
+
+No problems.
+
+Would your KLA work if your students had the following constraints:
+. Limited Vision: (including color-blindness)
+. Limited Hearing: 
+. Limited Mobility:
+. Trouble Speaking:
+. Touch Aversion: (including cultural)
+. Other:
+
+Pitfalls Of KLA
+
+It's important to have the executor be facing in the same direction as the students. Otherwise they can get confused about which parameter is the left hand and which is the right. 
+
+Feedback And Use Notes
+
+Feedback: *add your feedback here!*
+
+Use Notes: *add your use notes here!*
+
+Related Resources

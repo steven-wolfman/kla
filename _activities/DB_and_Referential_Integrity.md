@@ -1,0 +1,68 @@
+---
+title: "DB and Referential Integrity"
+layout: activity
+---
+
+DB/Referential Integrity
+
+Designed by Alvaro Monge, Norma Hall, Rich Pattis. 
+
+This KLA is transcribed from the SIGCSE 2004 Special Session on KLAs.
+
+## Overview To KLA
+
+Summary: To be added 
+
+Learning Goals: At the end of this exercise, students will understand...
+- simple database integrity rules.
+
+Course And Level: sophomore
+
+Class Size: around 30
+
+Preparation Time: 5 min
+
+Execution Time: 15 min
+
+
+## Planning For KLA
+
+**Materials**:
+- Multicolored post-its to make name tags for courses and students. 
+
+**Preparation**: To be added.
+
+As always, read this description carefully and practice the KLA before using it in class!
+
+## Execution Of KLA
+
+**Description**: 
+Student ID can be different colors, giving the post-it to the registrar allows the registrar to put that ID on a course. 
+
+Post-it represents student ID - (ID put on "course")
+Faculty has registrar add purple post-it to it.
+Course- no reference to student. 
+
+**Variants And Extra Topics**:
+To be added.
+
+## Constraints On KLA
+
+Would your KLA work if your students had the following constraints:
+- Limited Vision: Not if a few were constrained. 
+- Limited Hearing: 
+- Limited Mobility: 
+- Trouble Speaking:
+- Touch Aversion: Not if a few were constrained. 
+- Other:
+
+## Pitfalls Of KLA
+
+## Feedback And Use Notes
+
+Feedback: Can allow multiples of each color to show 1:M relationship. 
+
+Use Notes: **add your use notes here!**
+
+
+## Related Resources

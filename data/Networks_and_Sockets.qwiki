@@ -1,0 +1,76 @@
+Networks And Sockets
+
+Designed by Simon
+
+This KLA is transcribed from the SIGCSE 2004 Special Session on KLAs.
+
+Overview To KLA
+
+Summary: To be added 
+
+Learning Goals: At the end of this exercise, students will understand...
+
+. accepting server socket
+
+Course And Level: 200 and up
+
+*Class Size*: > 3
+
+Preparation Time: about 0 min
+
+Execution Time: about 5-10 min
+
+
+Planning For KLA
+
+Materials: none
+
+*Preparation*: 
+. Select 3 volunteers.
+
+As always, read this description carefully and practice the KLA before using it in class!
+
+Execution Of KLA
+
+*Description*: 
+1. All sockets seated
+2. Server socket stands (creation)
+3. Server socket extends arm (listen)
+4. Server socket wiggles fingers (accept)
+5. Client socket stands (creation)
+6. Client socket extends arm and and grabs server sockets hand (bind)
+7. Server gets connection socket to stand
+8. Server brings client's and connection's hands together
+9. Client and connection hold hands (connection established)
+10. Server extends arm and wiggles hand again (accept)
+
+
+*Variants And Extra Topics*: To be added.
+
+Constraints On KLA
+
+Would your KLA work if your students had the following constraints:
+. Limited Vision: 
+. Limited Hearing: 
+. Limited Mobility: Not if many were constrained. 
+. Trouble Speaking:
+. Touch Aversion: Not if many were constrained.
+. Other:
+
+Pitfalls Of KLA
+
+Feedback And Use Notes
+
+*Feedback*:
+. Is 200 sophomore level? Not everyone uses the same numbering scheme. 
+. Step 5- bind is done by server, not client (that's really the connect step described)
+. Do you want a 4th item? - the os? It's the one that connects the server socket to the client not the server socket per se.
+. Generally, a good idea. 
+. Neat, but onyl involves 3 students as stated. Could more be involved?
+. Could you involve more students as network traffic that want to flow fron client to server?
+
+
+Use Notes: *add your use notes here!*
+
+
+Related Resources

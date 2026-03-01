@@ -1,0 +1,59 @@
+---
+title: "Props"
+layout: resource
+---
+
+From: Guest ()
+Date: March 5, 2006, 9:05 pm
+
+## KLA Props
+
+Here's a list of props to spur your imagination.  Remember that you always have yourself, your students, your room, its contents, and the typical items that you and your students carry (clothing, watches, change, pens, paper, folders, ...).
+
+- Rope (multiple thicknesses)
+- Blindfolds
+- Legos, Kinex, tinker-toys, and other connecting structures (there's some cool ones these days that use magnets)
+- Scissors
+- Ream of 8.5x11" paper
+- Masking tape
+- Lots of big colored markers
+- Balloons
+- Frisbees
+- Football, Golf balls, Baseballs, Softballs
+- Juggling balls
+- Dice (multiple sizes, multiple types of sides)
+- Socktail (fancy ball in a sock)
+- Different hats (Tiaras)
+- Mask
+- Poster board
+- Playdough
+- Wand or other pointer
+- Laser pointer
+- Stacking cups or Matryoshka boxes (boxes that fit inside boxes)
+- Firecrackers (OK, maybe just those little poppers that you throw against the ground?)
+- Big post-its
+- Candy
+- Other nick-nack food items
+- Utensils
+- Peanut butter and jelly
+- Tortillas
+- Bags
+- Cups
+- Water
+- Boxes
+- Cheap tupperware
+- Yoyo
+- Scarf and cloth
+- Hammer
+- Index cards
+- Play money
+- Envelopes
+- Stamps
+- Cards
+- Magnets
+- Hoberman sphere (one of those expanding/contracting spheres)
+- Gloves (latex gloves); beware of latex allergies!
+- Clock
+- Puppets
+- Baking soda and lemon juice
+- Hula hoops

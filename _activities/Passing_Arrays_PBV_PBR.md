@@ -1,0 +1,75 @@
+---
+title: "Passing Arrays PBV PBR"
+layout: activity
+---
+
+## Pass An Array
+
+Designed by CS&IT June 2005 participants.
+
+## Overview To KLA
+
+Summary: Students wil demonstrate the process of passing an array by value and by reference.
+
+Learning Goals: 
+
+Course And Level: CS 1 - Intro
+
+Class Size: 20
+
+Preparation Time: 10 minutes
+
+Execution Time: 5 minutes per group.
+
+
+## Planning For KLA
+
+Materials: Balls, plastic cups, string
+
+Preparation: None.
+
+As always, read this description carefully and practice the KLA before using it in class!
+
+## Execution Of KLA
+
+Description: 
+
+1. Pick two students to be the array. Pick two alternates as well. 
+2. Give a ball to one student, and a plastic cup to the other. Same for the alternates.
+3. Pick one student as array element 0. Give him one end of the rope. Hold onto the other end yourself.
+4. Pick another student to be a Swap function.
+
+5. Pass the array by reference to the Swap function by passing your end of the string to Swap, and announce that you're calling the function with your array by reference.
+6. Swap reaches over to the array students and swaps their cup and ball, and announces "Swap". 
+7. Swap then passes the rope back to the caller. Array elements hold up their new swapped elements. Announce that the array has been mutated in place.
+
+8. Ask two alternates to crouch behind their corresponding array elements (the ones that are holding the same item). 
+9. Announce that you're calling Swap by value and passing it the array. Before you can hand the rope over to Swap, the two alternates jump up in front of their array elements. New array element 0 grabs the rope from old array element 0. "We're the copy of the array", announces the new array element 0.
+10. Pass the rope over to Swap.
+11. Swap reaches over to the new array students and swaps their cup and ball, and announces "Swap". 
+12. Swap them passes the rope back to the caller. New array elements run away. New array element 0 gives back the rope to old array element 0. 
+13. Array elements hold up their unswapped elements. Announce that while the copy of the array has been mutated in place, the original, which is what you're left with has not. Pass by value makes a copy and then throws it (and any changes inside of it) away when the procdure returns.
+
+**Variants And Extra Topics**: 
+
+## Constraints On KLA
+
+Participants should be able to hold onto objects and be mobile.
+
+Would your KLA work if your students had the following constraints:
+- Limited Vision: (including color-blindness)
+- Limited Hearing: 
+- Limited Mobility:
+- Trouble Speaking:
+- Touch Aversion: (including cultural)
+- Other:
+
+## Pitfalls Of KLA
+
+## Feedback And Use Notes
+
+Feedback: **add your feedback here!**
+
+Use Notes: **add your use notes here!**
+
+## Related Resources

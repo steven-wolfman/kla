@@ -1,0 +1,63 @@
+Sense Of Scale
+
+Designed by Steve Wolfman (comments interspersed as SW)
+
+Overview To KLA
+
+Summary: This is a quick KLA to give your students a physical sense for the dramatic change in the size of computers over their history (from the ENIAC to handhelds).  It's most appropriate for CS1 or CS0 classes, although one could imagine using it as an extended example for a computer architecture course (see the "Looking Inside" variant discussed below).
+
+Learning Goals: At the end of this exercise, students will have a clear physical sense for what the size of the ENIAC computer, a much better sense than the typical "size of a large room or a small gym" description gives.
+
+Course And Level: CS0 or CS1 or possibly an architecture course (see the "Looking Inside" variant discussed below).
+
+Class Size: Two versions are described below, one that works well for a large class and one that works well for a small class.  Small classes may need to step outside the classroom for sufficient space or mobility.  
+
+Preparation Time: For a large class, almost none.  For a small class, 10 minutes + a trip to the store for string and a tape measure.
+
+Execution Time: 3 minutes.  Extendible to much more if used as a running example.  Timing is easy to control. 
+
+Planning For KLA
+Materials: For a large class: no materials (optional tape or coloured index cards).  For a small class: 160 feet of string (roughly measured). 
+
+Preparation: For both a large and small class, you are trying to define a 40 by 40 foot area.  Large class: measure and record how many seats across is 40 feet and how many rows deep is 40 feet.  Small class: measure out 160 feet of string from a spool.  As always, read this description carefully and practice the KLA before using it in class!
+
+Execution Of KLA
+
+*Description*: 
+
+. Large class: Begin your discussion of historical computers.  When you get to comparisons of the ENIAC and modern computers, tell students that the ENIAC took up 1800 square feet (170 square meters) of floor space.  Ask for/choose a volunteer in one corner of the classroom and then have students guess where the other corner of an ENIAC-size square would be.  When you're ready, have students stand at the corners of a 40x40 foot square, approximately the size of the ENIAC's footprint.  (SW also has all the students in the middle stand to get a feel for the bulk of the machine, but depending on your lecture hall's rake students may not have a good view if you do that.)
+
+. Small class: Begin your discussion of historical computers.  When you get to comparisons of the ENIAC and modern computers, tell students that the ENIAC took up 1800 square feet (170 square meters) of floor space.  Then, ask for four volunteers and have them take corners of your 160 feet of string as far out as they can go (in a square).  That is a 40x40 foot square, the size of the ENIAC's footprint (approximately).
+
+In either case, point out that the actual ENIAC was strung out in a U-shape and was closer to 100x50 feet with lots of open space in the middle.  (Imagine walking around inside your computer!)  It's also good, for emphasis, to pull out a palmtop computer or MP3 player to remind students of the comparison size.
+
+*Variants And Extra Topics*: 
+
+. Tape Or Cards For Large Classes: the "string" approach for small classes probably won't work well for a large class because of difficulties moving around the class.  However, you could tape off a portion of the lecture hall the size of the ENIAC and describe it as a guest for the day's lecture. (That's assuming you have 1600 sq ft of extra seats in your lecture hall, of course.)  Alternatively, do what they do in the Olympics and leave colored cards on a 40x40 foot set of seats.  When the time comes, have everyone with a colored card stand or hold the card up.  This meshes well with the Looking Inside variant below.
+. Looking Inside: to be written; essentially, subdivide the ENIAC into the space taken up by processors, memory, power, etc.  Then, "blow up" a modern CPU chip to ENIAC size and do the same breakdown to see what has changed.  Could make an excellent way to motivate subjects in an architecture course (e.g., to point out that most of a modern chip is now wires).  *Help wanted*: does anyone know statistics on the breakdown of space (either volume or area) used in the ENIAC.  Of course, anything will be rough, but statistics are hard to come by.  If you happen to be near the Heinz Nixdorf Museum in Paderborn, Germany, they claim to have a life-size model of the ENIAC.
+. Size Progression: do multiple sizes from the ENIAC down to whatever recent computing device you fancy.  SW recommends throwing the Mark I in, the first stored program (Von Neumann) computer and therefore perhaps the first real, electronic computer.  (The U of Washington CS department has a lovingly maintained VAX with its parts exposed and clearly labelled.)
+
+Constraints On KLA
+
+This KLA is mostly visual and would probably work poorly for blind students.  In a small class, walking the perimeter might mitigate the problem, but in a large class, the classroom will probably inhibit a walking tour.  In both small and large classes, students with limited mobility can certainly still be involved with a bit of thought on the instructor's part (e.g., in a large class ask students to raise hands rather than standing, in a small class, make sure that the space is clear of obstacles, etc.).  
+
+If you use the colored-card variant, for the sake of ~7% of your students, do not use both green and red! :)
+
+Pitfalls Of KLA
+
+Ensuring good sight-lines is important!  The exercise won't work if students can't get a physical sense of the machine's size.
+
+Feedback And Use Notes
+
+Feedback: *add your feedback here!*
+
+Use Notes: *add your use notes here!*
+
+. Used Spring of 2001 in a 200 person CS1 course.  Took less than a minute since I just prepped four students placed appropriately to stand when I asked for the size and then had the students in between stand for the sense of the "bulk" of the machine.  I let students look at the size for a minute and then trailed down through Vax-sized machines to desktop PCs to handhelds.  Definitely worth the physical sense of scale it gives and the fun "beat" in class given how cheap it is in terms of prep time, execution time, and resources.  Note: I had a steep rake in my class; so, most students were able to see the "computer".  Rather than using a square, I used a rectangle longer along the front than it was deep so that most of the class was behind and above the human ENIAC.  (Steve Wolfman)
+
+Related Resources
+
+The 1800 sq ft number is directly from Nancy Stern's book <u>From ENIAC to UNIVAC: An Appraisal of the Eckert-Mauchly Computers</u>, pp 50-51 (and other discussions of the size throughout).  The approximation of the ENIAC's actual dimensions (~100x50 feet) is based on that value and the layout shown on page 29.
+
+There are scads of online histories of the ENIAC.  Search for "ENIAC history".  However, be aware that many of them seem to get their information from each other or from shared, dubious sources.
+

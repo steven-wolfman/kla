@@ -1,0 +1,61 @@
+From: Gerard Tel (gerard@cs.uu.nl)
+Date: June 9, 2010, 6:23 am
+
+Kinethestic Learning Activities Collection
+We have collected here a list of KLAs for your perusal and use. We only ask that if you have developed any of your own KLAs that you describe them here for everyone's benefit.  To add your own KLA, consider following the KLA _Design_pattern_.
+
+(Also, see the activities constructed at the _SIGCSE_2004_ special session.)
+
+! *Due to recent spamming problems, editing is by logged-in users only.  To edit without creating an account, use the login link at the bottom of the page and use "anonymous" and "guest" for your name/psswd.*
+
+List Of Activities
+
+1. *_Cons_Cell_Jeopardy_*: Combination of Jeopardy, Twister and Scheme Cons Cells (Andrew Begel)
+
+2. *_Counting_the_Class_*: Randomized algorithm class counting exercise (Steven Wolfman)
+
+3. *_Critical_Smurf_*: Chaotically dancing Smurfs stabilize to dancing one at a time (Gerard Tel) 
+
+2. *_Data_Processing_*: Lining up according to feelings on a continuum
+
+2. *_Disk_Cache_Latency_Relay_*: Motivates why caches are both good and bad (Kate Deibel)
+
+2. *_Distributed_Human_Monty_Hall_Experiment_*: Students perform the Monty Hall problem, record their results, and then aggregate the results to investigate the base problem
+
+2. *_Do_Nothing_Why_Pipeline_*: Students self-discover the need for pipelining (Kate Deibel)
+
+2. *_Flow_Chart_Hopscotch_*: Students move through a giant flowchart to internalize process control (Rebecca Bates)
+
+2. *_Human_Binary_Tree_*: Forming a binary tree out of an entire class and performing calculations with it
+
+2. *_Human_Mystery_Interface_*: Explore interface design issues by acting out a broken interface
+
+2. *_Massive_Boolean_Short_Circuit_*: Short-circuited Boolean operators
+
+2. *_Mob_Topological_Sort_*: Introduces graph concepts like topological sort and cycle-detection
+
+2. *_Mystery_Machine_Schedule_*: Participants make requests for using an imaginary machine, and the teacher uses this input to explain a Greedy Choice Property (Gerard Tel)
+
+2. *_Network_Routing_on_Strings_*: Routing paper packets across string network links (Tammy VanDeGrift and Sarah Schwarm)
+
+2. *_Object_Acrobats_*: Acrobat and actor exercise for teaching inheritance (Tammy VanDeGrift)
+
+2. *_Parameter_Passing_*: Frisbees and functions and value and reference
+
+2. *_Parameterized_Student_Sort_*: sort students at the front of the class using a parameterized comparator; good for interfaces in OO languages or higher-order functions in functional languages (Steve Wolfman)
+
+2. *_Sense_of_Scale_*: Give people a sense of the size of historical computers by showing how much of the class they'd cover.
+
+2. *_Social_Sort_*: Non-determinism explained by bilateral card sorting (Gerard Tel)
+
+2. *_Sorting_Cards_*: Sorting activity with cards (Tammy VanDeGrift)
+
+2. *_Sorting_Students_*: The classic front-of-the-room sorting exercise
+ 
+2. *_Spotty_Dotty_the_Continuation_Dalmatian_*: continuations explained via flying Beanie Babies; also a good classroom atmosphere helper 
+
+2. *_Start_of_Class_Shout_*: First day exercise to establish an open classroom atmosphere
+ 
+2. *_Tail_Recursion_*: Frisbee toss for functions that are recursive vs. tail recursive
+
+2. *_The_Function_Game_*: Active parameter passing and interaction with memory (Rebecca Bates)

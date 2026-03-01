@@ -1,0 +1,100 @@
+---
+title: "Flow Chart Hopscotch"
+layout: activity
+---
+
+From: Guest ()
+Date: February 16, 2006, 3:57 pm
+
+## Flow Chart Hopscotch
+
+Designed by Rebecca Bates, Minnesota State University, Mankato
+
+## Overview To KLA
+
+Summary: A large flow chart is on the floor.  Students follow the chart, using random generators to decide flow changes (flip a coin, roll a die, etc.).  As the "computer" they must do the actions and calculations as well as remember variables.  Students get a better feel for the overall process flow.  This is best used after the introduction of selection structures and repetition structures.
+
+Learning Goals: 
+
+At the end of this exercise, students will...
+
+- be able to follow flow charts from start to finish
+- understand how and why we choose to use some code and not use some code through selection structures 
+- have a better understanding of counting processes in loops (if loop exercises are tied to a particular syntax)
+- have a better understanding of ordering in programs
+- have a common experience to relate to when learning about complex flow 
+
+At the end of this exercise, faculty will...
+- be reassured about student level of understanding of process flow
+- have found "holes" in student knowledge about variable declaration and assignment, selection structures, and loop mechanics
+
+Course And Level: Any introductory programming or computer science class where flow charts are first used.  This works for all ages of students (assuming they can read and*or follow instructions).  Depending on the class, the game can include variable use and input and output statements although this would not be necessary.  Performing simple actions would be all that is required.
+
+Class Size: Class could be small or large since this works well as a demonstration exercise or for classes up to 25 to allow all students to follow the flow chart.
+
+Preparation Time: 15 minutes depending on how the chart is illustrated.  A reusable chart would make this a fixed time; otherwise it will always take about 10-15 minutes. 
+
+Execution Time: 5-40 minutes depending on whether a demonstration is used or all students follow the flow.
+
+## Planning For KLA
+Materials: These can vary depending on implementation.
+- Wide masking tape
+- Random number generators: frisbee (heads or tails), a die (large visible foam dice work very well), a coin, etc.
+- Length of floor on which to make flow chart
+- Useful to have a black*white board on the wall above the flow chart
+
+Preparation: Instructor should have a flow chart plan as well as some ideas for actions that can be done by the students as they follow the flow.
+
+As always, read this description carefully and practice the KLA before using it in class!
+
+## Execution Of KLA
+
+Description: Before class, use the masking tape to create a large flow chart on the floor.  Use typical symbols (oval for start*stop, parallelogram for input*output, diamonds for decision points and rectangles for statements) and make sure components are at least a step apart.  Make sure the space is wide enough so that there is a distinction when someone goes to one side or the other of a selection structure.  Above the masking tape flow chart, write a sideways version on the board.  The actual instructions will go on the board and can be changed between students.  An example flow chart is below:
+
+hopscotch.gif
+
+Associate one random number generator with each decision region in the code and place them by the diamond.  An example for a selection structure would be to use a frisbee (heads vs. tails) with "if (heads)" and true*false on the board to indicate the comparison and the direction of flow.  An example for a loop would be a six-sided die to generate the maximum number of iterations.
+
+Example actions could be waving, waving with both hands, making a face, jumping jacks, touching toes, nodding, or saying the value of the counting variable.  (I would not use spinning since they may get dizzy going around the loop anyway.)  
+
+In order to use input and output blocks, students could store their names at the beginning (cin >> name;) and then say them again at the end (cout &lt;&lt; name &lt;&lt; " is done!";)  Students could also remember an initial value for a variable that changes during a selection structure or repetition structure.
+
+Students should be encouraged to start at the start oval and stop at the stop oval as well as to follow the lines as they move throughout the code.  
+
+**Variants And Extra Topics**: 
+
+- No Black Board Available: As students follow the flow, instructions can be given to students by the facilitator or they can be read off a program.
+
+- Adding Concepts: Concepts such as input*output, variable storage and modification, nested structures, and number of iterations can be added to or taken away from this KLA.
+
+- Number Of Iterations:  During the KLA, the starting value of the counting variable and*or the comparison operator in the loop syntax can easily be changed.  This may give the students the chance to not have to do any of the actions in the loop at all (e.g., if i=1 and i is less than 1 for a die roll of 1, then the student does not enter the loop) or do many (e.g., i less than 6+10 or i=0).
+
+- Student Flow Charts: *(untried suggestion)* perhaps with plenty of space students can also get into groups and design their own flowcharts to accomplish tasks?  They can then swap around to other groups and try out their flowcharts.  (Tasks could be things like "clap as many times as there are letters in your name" and could either be provided by the instructor or imagined by the students.  "Visiting" students' goal could be to figure out what the flowchart means.)
+
+## Constraints On KLA
+
+Would your KLA work if your students had the following constraints:
+- Limited Vision: (including color-blindness) does not work well for blind students but fine for color-blindness
+- Limited Hearing: yes
+- Limited Mobility: If needed, address this by working with partners (i.e., have a controller).  Or, make sure there is enough space for easy movement.
+- Trouble Speaking: Control this by setting actions to use limited speaking.
+- Touch Aversion: (including cultural) yes
+- Other: 
+
+These constraints can be avoided by asking for volunteers and using the KLA in demonstration mode rather than "all students" mode.
+
+## Pitfalls Of KLA
+
+Since students are in a spotlight, messing up the actions can be embarassing.  Guidance and praise (including thanks or kudos at the end) are important to avoid this.  Actions require that some students are slightly out of their comfort zone, so focusing on the process rather than the actions can help this.  In the lab space, there was enough room for the flow chart on the floor alongside the blackboard but it was hard for other students to see the values of the die.  While some students may be excellent at verbalizing all portions of their process, others will benefit from questions that check that they are on the right track.
+
+## Feedback And Use Notes
+
+Feedback: **add your feedback here!**
+
+Use Notes: **add your use notes here!**
+
+- Used Fall of 2005 in two lab classes (24 and 18 students).  The entire class was involved for the first four students but interest waned after that unless the "code" was changed to require additional or different activities.  It was still valuable for individual students to do while others worked on assignments.  I gave away frisbees to the students that volunteered first.  I told students they would all get the opportunity to do it and called them up by name or went and said "your turn!".  When I phrased it as "Do you want to do this?" rather than "Do you want to go now?" or "Your turn!", I did get one "no" but otherwise there was complete participation.  One student did a jumping jack and landed on the foam die.  Be aware of game's own physical hazards! (Rebecca Bates)
+
+## Related Resources
+
+*You or later users of the wiki can add links (that don't fit into the text above) to related discussions, papers, repositories, examples, etc./
