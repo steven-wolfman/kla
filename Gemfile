@@ -1,13 +1,13 @@
 source "https://rubygems.org"
 
-# Basic Jekyll setup for local development
-gem "jekyll", "~> 4.4.0" 
-gem "kramdown-parser-gfm"
-gem "jekyll-sass-converter"
-gem "jekyll-feed"
+# GitHub Pages gem for production deployment
+gem "github-pages", group: :jekyll_plugins
 
-# For GitHub Pages compatibility, uncomment this line when deploying:
-# gem "github-pages", group: :jekyll_plugins
+# Basic Jekyll setup for local development (uncomment for local dev)
+# gem "jekyll", "~> 4.4.0" 
+# gem "kramdown-parser-gfm"
+# gem "jekyll-sass-converter"
+# gem "jekyll-feed"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
