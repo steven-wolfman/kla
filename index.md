@@ -3,11 +3,6 @@ title: "Kinesthetic Learning Activities Archive"
 layout: default
 ---
 
----
-title: "Kinesthetic Learning Activities Archive"
-layout: default
----
-
 # Kinesthetic Learning Activities Archive
 
 **This is a static archive of the original Kinesthetic Learning Activities wiki.**
@@ -42,7 +37,7 @@ This website is a resource of KLAs for the Computer Science Education community,
 
 ## About This Archive
 
-This archive preserves the valuable educational content from the original Kinesthetic Learning Activities wiki, which became inactive due to spam attacks. The content has been cleaned, organized, and converted to a modern static format.
+This archive preserves the educational content from the original Kinesthetic Learning Activities wiki, which became inactive due to spam attacks. The content has been cleaned, organized, and converted to a modern static format.
 
 ### Contributors
 
@@ -50,10 +45,10 @@ Many thanks to the original contributors who helped build this valuable educatio
 
 - Afsaneh Amiri  
 - Laura Aslan
-- [Rebecca Bates](http://bates.cs.mnsu.edu)
-- [Andrew Begel](http://research.microsoft.com/~abegel) 
-- [Daniel D. Garcia](http://www.cs.berkeley.edu/~ddgarcia)
-- [Steven A. Wolfman](http://www.cs.ubc.ca/people/profile.jsp?id=wolf)
+- Rebecca Bates
+- Andrew Begel
+- Daniel D. Garcia
+- Steven A. Wolfman
 - And many others who contributed activities and improvements
 
 *Original wiki data last updated: March 2012*

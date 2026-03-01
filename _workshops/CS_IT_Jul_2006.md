@@ -1,6 +1,7 @@
 ---
 title: "CS IT Jul 2006"
-layout: activity
+layout: workshop
+venue: "CS IT Jul 2006"
 ---
 
 From: Guest ()

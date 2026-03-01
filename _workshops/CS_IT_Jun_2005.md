@@ -1,6 +1,7 @@
 ---
 title: "CS IT Jun 2005"
-layout: activity
+layout: workshop
+venue: "CS IT Jun 2005"
 ---
 
 Welcome to CS&IT June 2005! We had a great workshop this year. We came up with three KLAs related to parameter passing. We hope all of the participants had lots of fun and learned some valuable techniques towards building KLAs.
